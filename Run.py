@@ -127,7 +127,7 @@ class CoNet_Model(neural_net.Module):
     def __init__(self):
         super(CoNet_Model, self).__init__()
         
-        dataset_path = os.path.join(os.path.join(os.getcwd(), '../../dataset'),"books_and_movies")
+        dataset_path = os.path.join(os.path.join(os.getcwd(), ''),"books_and_movies")
         print("--------------------------Books---------------------------")
         self.dataset_data_1 = Dataset(dataset_path, "movies")
         
